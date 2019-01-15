@@ -1,5 +1,5 @@
 
-module.exports = function(){
+module.exports = function() {
 Date.prototype.yyyymmdd = function() {
   var mm = this.getMonth() + 1; // getMonth() is zero-based
   var dd = this.getDate();
