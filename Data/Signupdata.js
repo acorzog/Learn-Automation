@@ -12,9 +12,9 @@ Date.prototype.yyyymmdd = function() {
 function randInt() {
  for (var i = 0; i < 10; i++){
   var rndmNumb = Math.floor((Math.random()*100)+1);
+  return rndmNumb;
  }
- return rndmNumb;
- };
+}
 function email () {
   var result = `TestUser${name}${randInt()}@mailinator.com`;
 return result;
@@ -23,5 +23,5 @@ return result;
 var date = new Date();
 var name = date.yyyymmdd();
 var emailRandom = email();
-return emailRandom
+return emailRandom;
 };
